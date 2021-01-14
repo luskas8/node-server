@@ -1,0 +1,23 @@
+{
+  "name": "node_complete_guide",
+  "version": "1.0.0",
+  "description": "A project to improve the knowledge with NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm",
+    "start": "nodemon src/index.js",
+    "start-server": "node src/index.js"
+  },
+  "author": "luskas8",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  }
+}
